@@ -1,4 +1,6 @@
 
+@class SwiftSupportWrapper;
+
 #ifdef RCT_NEW_ARCH_ENABLED
 #import "RNSwiftSupportSpec.h"
 

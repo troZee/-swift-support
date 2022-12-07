@@ -1,12 +1,11 @@
 #import "SwiftSupport.h"
+#import "react_native_swift_support-Swift.h"
 
 @implementation SwiftSupport
 RCT_EXPORT_MODULE()
 
 - (NSNumber *)multiply:(double)a b:(double)b {
-    NSNumber *result = @(a * b);
-
-    return result;
+    return [[[SwiftSupportWrapper alloc] init] multiplySwift:a withB:b];
 }
 
 // Don't compile this code when we build for the old architecture.
