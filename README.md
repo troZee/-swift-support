@@ -1,6 +1,7 @@
 # react-native-swift-support
 
-Here you have an official guide, how to do this
+Here you have an official guide:
+
 ⚠️⚠️⚠️ https://github.com/react-native-community/RNNewArchitectureLibraries/tree/feat/turbomodule-swift ⚠️⚠️⚠️
 
 Swift support for TM
